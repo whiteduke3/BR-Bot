@@ -31,6 +31,8 @@ const ademir = [
 
 ];
 
+
+
 client.on('messageCreate', msg => {
     if(msg.channelId === "691309538930065492" && msg.content.toLowerCase().trim() === "!dejan") {
         let index = Math.floor(Math.random() * dejan.length);
